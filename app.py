@@ -57,6 +57,6 @@ if st.button("Classify"):
         prediction = model.predict(text_vec)[0]
         
         if prediction == "spam":
-            st.error("🚨 This looks like SPAM!")
+            st.error("This looks like SPAM!")
         else:
-            st.success("✅ This looks like HAM (not spam).")
+            st.success("This looks like HAM (not spam).")
