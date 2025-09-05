@@ -44,7 +44,7 @@ model, vectorizer = train_model()
 # ----------------------------
 # Streamlit UI
 # ----------------------------
-st.title("📧 Spam Email Classifier")
+st.title("Spam Email Classifier")
 st.write("Paste a message below and I’ll predict whether it’s spam or not.")
 
 user_input = st.text_area("Enter a message:")
